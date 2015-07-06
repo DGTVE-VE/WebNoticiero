@@ -1,0 +1,148 @@
+#am-img{
+    background:url('../noti_img/noticiarios/AM.jpg')no-repeat;
+    width: 257px;
+    height: 294px;
+    display: block;
+    padding: 0px !important;
+    margin-left: 14px;
+}
+#md-img{
+    background:url('../noti_img/noticiarios/MD.jpg')no-repeat;
+    width: 257px;
+    height: 294px;
+    display:block;
+    padding:0 !important;
+    margin:0;
+}
+#pm-img{
+    background:url('../noti_img/noticiarios/PM.jpg')no-repeat;
+    width: 257px;
+    height: 294px;
+    display:block;
+    padding:0 !important;
+    margin:0;
+}
+#contenedor{
+    background:url('../noti_img/media/base.jpg')no-repeat;
+    background-size:100%;
+    height: 250px;
+    display:block;
+    padding:0 !important;
+    margin:0;
+}
+#contenido {
+    padding-top: 9%;
+    margin: auto;
+}
+.pequenas{
+    width: 100%;
+    height: 88px;
+}
+.letra-color {
+    color: #d32323;
+}
+.blanca {
+    color: #FFFFFF;
+}
+
+// Lista de reproducciones+
+a:hover {color: #007DF8;cursor: pointer;}
+a{color: #0E7FCA; text-decoration: underline;}
+p{padding-bottom: 10px}
+
+form{border:1px solid #CCC}
+input[type=text]{padding: 2px}
+p:not(.checkboxes) label span{
+    width: 105px;
+    float: left;
+    padding: 5px 10px 5px 0;
+}
+
+.checkboxes{
+    padding-left: 105px;
+}
+
+/*gallery*/
+/*-----------*/
+.youtube_videos_playlist{
+    height: 320px;
+}
+.youtube_videos_playlist h2{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.youtube_videos_playlist ul{
+    list-style: none;
+    margin: 0;
+    #display: flex;
+    #flex-direction: row;
+    #flex-wrap: wrap;
+    #justify-content: flex-start;
+    #align-content: flex-start;
+    #align-items: flex-start;
+    padding: 0;
+}
+
+.youtube_videos_playlist li{
+    width: 120px;
+    margin: 0 10px;
+}
+.youtube_videos_playlist .private{
+    position: relative;
+
+}
+.youtube_videos_playlist .private:before{
+    width: 120px;
+    height: 90px;
+    background: url(img/private.png) no-repeat center center;
+    background-size: 45%;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    content: "";
+    opacity: .8;
+}
+.youtube_videos_playlist img{
+    margin-bottom: 10px;
+}
+
+#lista-videos{
+    width: 776px;
+    height: 195px;
+    border: thin solid black;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CCC;
+    padding-top: 9px;
+    margin: 0 10px;
+}
+
+.list-inline {
+    white-space:nowrap;
+}
+.DocumentList
+{
+    overflow-x:scroll;
+    overflow-y:hidden;
+    height:100%;
+    width:100%;
+    padding: 0 15px;
+}
+
+.DocumentItem
+{
+    #border:1px solid black;
+    padding:0;
+    height:100%;
+}
+
+#cambia{
+    height: 262px;
+}
+
